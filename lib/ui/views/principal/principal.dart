@@ -1208,9 +1208,9 @@ print('futuro: ${resp.body}');
                                   ),
                                   Row(
                                     children: <Widget>[
-                                      //MyCheckbox
-                                      MyCheckbox(
-                                        useTapTarget: false,
+                                      // Checkbox
+                                      Checkbox(
+                                        // useTapTarget: false,
                                         value: _ckbDescuento,
                                         onChanged: (newValue){
                                           setState(() {
@@ -1224,8 +1224,8 @@ print('futuro: ${resp.body}');
                                   ),
                                   Row(
                                     children: <Widget>[
-                                      MyCheckbox(
-                                        useTapTarget: false,
+                                      Checkbox(
+                                        // useTapTarget: false,
                                         value: _ckbPrint,
                                         onChanged: _ckbPrintChanged,
                                       ),
@@ -1235,8 +1235,8 @@ print('futuro: ${resp.body}');
                                   ),
                                   Row(
                                     children: <Widget>[
-                                      MyCheckbox(
-                                        useTapTarget: false,
+                                      Checkbox(
+                                        // useTapTarget: false,
                                         value: _ckbMessage,
                                         onChanged: _ckbMessageChanged,
                                       ),
@@ -1246,8 +1246,8 @@ print('futuro: ${resp.body}');
                                   ),
                                   Row(
                                     children: <Widget>[
-                                      MyCheckbox(
-                                        useTapTarget: false,
+                                      Checkbox(
+                                        // useTapTarget: false,
                                         value: _ckbWhatsapp,
                                         onChanged: _ckbWhatsappChanged,
                                       ),
